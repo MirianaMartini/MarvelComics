@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    background-color: rgba(255, 173, 107, 0.61);
+    background-image: url("search.jpg");
+    background-size: cover;
+   
+    background-repeat: no-repeat;
+    position: relative;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+}
+
+main{
+  margin-top: 50px;
+}
+
+button.btn.btn-outline-danger{
+    margin-left: 10px!important;
+}
+
+.hidden{
+  display:none;
+}
+
+section.my_collection{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+div.card.new {
+    background-color:rgba(0, 0, 0, 0.61)!important;
+}
+
+
+div.card{
+    margin:20px;
+  }
+
+div.card img{
+    padding: 5px;
+  }
+
+  span.icon--svg{
+    margin: 0px;
+}
+
+
+.title_area{
+    display: flex;
+    justify-content: center;
+}
+
+h1#title{
+    color: white;
+    background-color: rgba(255, 0, 0, 0.87);
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    display: inline;
+    text-shadow: 2px 5px 5px rgb(0, 0, 0);
+    border: solid black ;
+}
+
